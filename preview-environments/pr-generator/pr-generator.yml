@@ -18,7 +18,7 @@ spec:
     spec:
       source:
         repoURL: 'https://github.com/kobler-labelbox/gitops-cert-level-3-examples.git'
-        targetRevision: HEAD
+        targetRevision: main
         path: preview-environments/kustomize-preview-app/ 
         kustomize:
           images:
